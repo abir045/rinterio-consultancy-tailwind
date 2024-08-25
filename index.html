@@ -93,21 +93,28 @@
             </ul>
           </div>
           <div class="navbar-end hidden lg:flex lg:space-x-5 items-center">
-            <i
-              class="fa-solid fa-magnifying-glass p-3 w-12 h-12 text-center text-xl bg-white rounded-full border-[1px] border-[#e9e9e9]"
-            ></i>
+            <button>
+              <i
+                class="fa-solid fa-magnifying-glass p-3 w-12 h-12 text-center text-xl bg-white rounded-full border-[1px] border-[#e9e9e9]"
+              ></i>
+            </button>
 
-            <i
-              class="fa-solid fa-cart-shopping p-3 w-12 h-12 text-center text-xl bg-white rounded-full border-[1px] border-[#e9e9e9]"
-            ></i>
+            <button>
+              <i
+                class="fa-solid fa-cart-shopping p-3 w-12 h-12 text-center text-xl bg-white rounded-full border-[1px] border-[#e9e9e9]"
+              ></i>
+            </button>
 
-            <a class="text-xl font-extrabold bg-iconBg px-4 py-3 rounded-[32px]"
-              >Book Consult
+            <button
+              class="text-xl font-extrabold bg-iconBg px-5 py-3 rounded-[32px]"
+            >
+              Book Consult
               <span>
                 <i
                   class="fa-solid fa-arrow-up-long w-8 h-8 rotate-45 text-white text-center text-xl bg-[#1C1C1C] rounded-full"
-                ></i></span
-            ></a>
+                ></i
+              ></span>
+            </button>
           </div>
         </div>
       </nav>
@@ -123,10 +130,14 @@
           />
         </div>
 
-        <h1 class="text-[28px] lg:text-6xl font-extrabold mt-6 text-[#212121]">
+        <h1
+          class="text-[28px] lg:text-[64px] font-extrabold mt-6 text-[#212121] w-10/12"
+        >
           A barn house of this design has a striking appearance
         </h1>
-        <p class="text-center font-medium lg:w-2/3 text-[#494949] mt-6">
+        <p
+          class="text-center font-medium leadding-[26px] lg:w-2/3 text-[#494949] mt-6"
+        >
           The barn house captivates with its blend of rustic charm and modern
           sophistication, featuring weathered wood, sleek metal accents, and
           large windows that flood the space with natural light.
@@ -165,7 +176,7 @@
               >
                 We design thoughtful, <br />liveable spaces
               </h1>
-              <p class="mt-6 text-sm lg:text-base font-medium">
+              <p class="mt-6 text-sm lg:text-base font-medium leading-[26px]">
                 The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal
                 accents.
@@ -206,7 +217,7 @@
           </div>
 
           <div>
-            <img src="assets/Rectangle.png" alt="" />
+            <img class="" src="assets/Rectangle.png" alt="" />
           </div>
         </section>
 
@@ -503,7 +514,7 @@
               rows="8"
             ></textarea>
             <button
-              class="text-xl font-extrabold bg-iconBg px-5 py-3 text-[#1c1c1c] rounded-[32px] text-center lg:col-span-2"
+              class="text-xl font-extrabold bg-iconBg px-5 py-3 text-[#1c1c1c] rounded-[32px] text-center items-center lg:col-span-2"
             >
               Send Mail
               <span>
@@ -517,6 +528,56 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-[#1C1C1C] px-8 lg:px-0">
+      <div class="text-center pb-24">
+        <div class="flex items-center justify-center pt-24">
+          <span class="mr-2">
+            <i
+              class="fa-solid fa-arrow-up-long w-8 h-8 text-center rotate-45 text-xl bg-iconBg rounded-full"
+            ></i>
+          </span>
+          <a class="text-[32px] font-extrabold text-[#e9e9e9]">Rinterio</a>
+        </div>
+
+        <p
+          class="font-medium text-base text-[#737373] leading-[26px] text-center mt-4 lg:w-1/2 mx-auto"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+
+        <ul
+          class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:space-x-28 items-center justify-center text-[#e9e9e9] font-medium mt-12"
+        >
+          <li>
+            <a class="font-medium">Home</a>
+          </li>
+
+          <li>
+            <a class="font-medium">Services</a>
+          </li>
+          <li>
+            <a class="font-medium">Portfolio</a>
+          </li>
+          <li>
+            <a class="font-medium">Blogs</a>
+          </li>
+          <li>
+            <a class="font-medium">Contact Us</a>
+          </li>
+        </ul>
+
+        <button
+          class="text-xl font-extrabold bg-iconBg text-[#1c1c1c] px-5 py-3 rounded-[32px] mt-12 w-full lg:w-[15%]"
+        >
+          Book Consult
+          <span>
+            <i
+              class="fa-solid fa-arrow-up-long w-8 h-8 rotate-45 text-white text-center text-xl bg-[#1C1C1C] rounded-full"
+            ></i
+          ></span>
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
